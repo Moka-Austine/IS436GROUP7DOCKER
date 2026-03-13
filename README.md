@@ -6,13 +6,13 @@
  ``` 
  docker build -t simple-html-site . 
  ``` 
-<br>
+
 - To run the container:
  ```
  docker run -p 8080:80 simple-html-site 
  ``` 
- <br>
-  - The **-p** is to set port **80** on container to be able to be accessed on port **8080** on the brouser. <br>
+ 
+   The **-p** is to set port **80** on container to be able to be accessed on port **8080** on the brouser. <br>
 
 - Then open in your browser: 
 ```
